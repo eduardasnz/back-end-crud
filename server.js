@@ -9,7 +9,6 @@ app.use(cors())
 app.listen(3232)
 
 
-
 // post = criar um usuario
 app.post('/usuarios', async (req, res) => {
     
