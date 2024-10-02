@@ -5,7 +5,7 @@ const prisma = new PrismaClient()
 const app = express()
 
 app.use(express.json())
-app.use(cors())
+app.use(cors({ origin: 'https://front-end-crud-rho.vercel.app/'}))
 app.listen(3232)
 
 
